@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Welcome to Eagle Land!
-image: assets/images/eagleBackground.jpg
+image: assets/images/homeBanner.jpg
 ---
 
 ## Our Mission
