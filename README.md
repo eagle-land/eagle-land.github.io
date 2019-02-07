@@ -5,11 +5,11 @@
 
 - At the top of each file is yaml front matter
 - This just gives some meta data about the page
-
-- Example:
-\---
-title: Brown Cows and Chocolate Milk
-Author: John Wayne
-Image: assets/images/someImage.jpg
-\---
+  
+- Example:  
+\---  
+title: Brown Cows and Chocolate Milk  
+Author: John Wayne  
+Image: assets/images/someImage.jpg  
+\---  
 
