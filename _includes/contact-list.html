@@ -1,0 +1,59 @@
+<ul class="contact-list">
+  {% if site.email %}
+    <li>
+      <a href="mailto:{{ site.email }}">
+        <span class="icon icon--email">{% include icon-email.svg %}</span>
+        <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
+      </a>
+    </li>
+  {% endif %}
+  
+  {% if site.twitter_username %}
+    <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
+  {% endif %}
+  
+  {% if site.linkedin_username %}
+    <li>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
+    </li>
+  {% endif %}
+  
+  {% if site.google_plus_username %}
+    <li>
+      <a href="https://plus.google.com/{{ site.google_plus_username }}">
+        <i class="fa fa-google-plus"></i> Google+
+      </a>
+    </li>
+  {% endif %}
+  
+  {% if site.facebook_username %}
+    <li>
+      <a href="https://www.facebook.com/{{ site.facebook_username }}">
+        <i class="fa fa-facebook"></i> &nbsp; Facebook
+      </a>
+    </li>
+  {% endif %}
+  
+   {% if site.github_username %}
+    <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
+  {% endif %}
+  
+  {% if site.dribbble_username %}
+    <li>
+    <a href="https://dribbble.com/{{ site.dribbble_username }}" class="icon">
+        <i class="fa fa-dribbble"></i> Dribbble
+      </a>
+    </li>
+  {% endif %}
+
+  <li>
+    {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
+      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
+        <span class="icon icon--rss">{% include icon-rss.svg %}</span>
+        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
+      </a>
+    {% endif %}
+  </li>
+</ul>
