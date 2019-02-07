@@ -7,9 +7,9 @@
 - This just gives some meta data about the page
 
 - Example:
----
+\---
 title: Brown Cows and Chocolate Milk
 Author: John Wayne
 Image: assets/images/someImage.jpg
----
+\---
 
