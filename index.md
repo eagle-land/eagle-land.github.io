@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Welcome to my Blog!
-image: /assets/images/sosuaBeach.jpg
+title: Welcome to Eagle Land!
+image:
 ---
 
 ## Our Mission
