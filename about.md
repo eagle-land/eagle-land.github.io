@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: assets/images/gradPic.jpg
+image:
 ---
 
 # About the Team
